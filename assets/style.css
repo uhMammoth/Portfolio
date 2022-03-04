@@ -20,7 +20,7 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: var(--secondary-color);
-    padding: 10px 0;
+    padding: 10px 30px 0 0;
 }
 
 header h1 {
@@ -32,10 +32,6 @@ header h1 {
     display: flex;
     align-items: center;
     color: var(--secondary-color);
-}
-
-.links {
-    padding-right: 50px;
 }
 
 .links ul {
@@ -101,6 +97,12 @@ header h1 {
     
 }
 
+.section-content ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 /* About Me section */
 
 .about div p {
@@ -108,23 +110,32 @@ header h1 {
 }
 
 /* work section */
-.contact-links {
-    display: inline-block;
-}
-.contact-links ul{
+.cards {
+    color: var(--secondary-color);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    text-align: center;
-    list-style: none;
+    position: relative;
 }
 
+.card {
+    flex: 0 1 46%;
+    border: 5px solid var(--tertiary-color);
+    min-height: 100px;
+    margin: 5px;
+}
+
+.card:first-child{
+    flex: 0 1 96%;
+    min-height: 500px;
+}
+
+/* contact section */
 .contact-links ul li {
     border-bottom: 3px solid var(--primary-color);
-    margin: 5px;
-    padding-bottom: 3px;
+    padding-top: 20px;
 }
 
 .contact-links ul li a {
-    text-decoration: none;
     color: var(--primary-color);
 }

@@ -4,7 +4,7 @@
 This project will showcase knowledge of CSS skills in the form of a website portfolio. Only HTML and CSS will be used for this project.
 
 ## Deployed Link using Github Pages
-
+https://uhmammoth.github.io/Portfolio/ 
 
 ## Example used as base
 
