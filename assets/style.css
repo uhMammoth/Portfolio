@@ -11,6 +11,7 @@ body{
     --primary-color: rgba(68, 88, 118, 1);
     --secondary-color: rgba(49, 52, 61, 1);
     --tertiary-color: rgba(146, 204, 205, 1);
+    --orange: rgba(255,215,0,.3);
 }
 
 
@@ -119,15 +120,85 @@ header h1 {
 }
 
 .card {
-    flex: 0 1 46%;
+    flex: 0 0 47%;
+    max-width: 50%;
     border: 5px solid var(--tertiary-color);
-    min-height: 100px;
+    min-height: 125px;
     margin: 5px;
+    position: relative;
+}
+
+.card div {
+    padding: 10px;
+    background-color: var(--tertiary-color);
+    position: absolute;
+    bottom: 20px;
+}
+
+.card div h4 {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.card div p {
+    font-size: 12px;
 }
 
 .card:first-child{
-    flex: 0 1 96%;
+    flex: 0 0 97%;
+    max-width: 100%;
     min-height: 500px;
+}
+
+.surfReport:hover {
+    background-image: 
+        linear-gradient(var(--orange), var(--orange)),
+        url(./images/weather.jpg);
+}
+
+.surfReport {
+    background-image: url(./images/weather.jpg);
+}
+
+.ledWall:hover {
+    background-image: 
+        linear-gradient(var(--orange), var(--orange)),
+        url(./images/LED.png);
+}
+
+.ledWall {
+    background-image: url(./images/LED.png);
+}
+
+.calculator:hover {
+    background-image: 
+        linear-gradient(var(--orange), var(--orange)),
+        url(./images/calculator.jpg);
+}
+
+.calculator {
+    background-image: url(./images/calculator.jpg);
+}
+
+.puzzle:hover {
+    background-image: 
+        linear-gradient(var(--orange), var(--orange)),
+        url(./images/puzzle.jpg);
+}
+
+.puzzle {
+    background-image: url(./images/puzzle.jpg);
+}
+
+.runBuddy:hover {
+    background-image: 
+        linear-gradient(var(--orange), var(--orange)),
+        url(./images/runbuddy.png);
+}
+
+.runBuddy {
+    background-image: url(./images/runbuddy.png);
+    background-size: 150%;
 }
 
 /* contact section */
@@ -138,4 +209,10 @@ header h1 {
 
 .contact-links ul li a {
     color: var(--primary-color);
+}
+
+.contact-links ul li:hover, .contact-links ul li a:hover {
+    color: var(--tertiary-color);
+    border-color: var(--tertiary-color);
+    
 }

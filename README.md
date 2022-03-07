@@ -10,6 +10,7 @@ https://uhmammoth.github.io/Portfolio/
 
 ![Example Image](./assets/images/example1.png)
 ![Example Image](./assets/images/example2.png)
+![Example Image](./assets/images/example.gif)
 
 ## Requirements
 
