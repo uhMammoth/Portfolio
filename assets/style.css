@@ -150,14 +150,14 @@ header h1 {
     min-height: 500px;
 }
 
-.surfReport:hover {
+.gameWiki:hover {
     background-image: 
         linear-gradient(var(--orange), var(--orange)),
-        url(./images/weather.jpg);
+        url(./images/GamePlatformProject.png);
 }
 
-.surfReport {
-    background-image: url(./images/weather.jpg);
+.gameWiki {
+    background-image: url(./images/GamePlatformProject.png);
 }
 
 .ledWall:hover {
