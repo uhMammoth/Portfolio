@@ -150,6 +150,16 @@ header h1 {
     min-height: 500px;
 }
 
+.parkPlace:hover {
+    background-image: 
+        linear-gradient(var(--orange), var(--orange)),
+        url(./images/parkPlaceImg.PNG);
+}
+
+.parkPlace {
+    background-image: url(./images/parkPlaceImg.PNG);
+}
+
 .gameWiki:hover {
     background-image: 
         linear-gradient(var(--orange), var(--orange)),
